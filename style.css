@@ -1,0 +1,34 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(./Buttermilk.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(hacker.jpg);
+    background-size: cover;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 190px;
+    transform: translate(80%,-50%);
+    font-family: buttermilk;
+    font-weight: 100;
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    /* mix-blend-mode: difference; */
+}
